@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ristorante Bella Vita</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Ristorante Bella Vita</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#reservaciones">Reservaciones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenido a Bella Vita</h2>
+    <p>Auténtica cocina italiana en el corazón de tu ciudad. Ven y vive una experiencia inolvidable.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Nuestro Menú</h2>
+    <ul>
+      <li>🍝 Spaghetti alla Carbonara - $12</li>
+      <li>🍕 Pizza Margherita - $10</li>
+      <li>🥗 Ensalada Caprese - $8</li>
+      <li>🍷 Vino Tinto de la Casa - $6</li>
+    </ul>
+  </section>
+
+  <section id="reservaciones">
+    <h2>Haz tu reservación</h2>
+    <form id="form-reservacion">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required />
+
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" required />
+
+      <label for="personas">Número de personas:</label>
+      <input type="number" id="personas" min="1" required />
+
+      <button type="submit">Reservar</button>
+    </form>
+    <p id="mensaje"></p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: contacto@bellavita.com</p>
+    <p>Teléfono: +34 123 456 789</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ristorante Bella Vita. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

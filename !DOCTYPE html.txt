@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Bella Vita</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contáctanos</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Envíanos un mensaje</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bella Vita</p>
+  </footer>
+</body>
+</html>
+

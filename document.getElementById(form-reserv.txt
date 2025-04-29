@@ -1,0 +1,9 @@
+document.getElementById("form-reservacion").addEventListener("submit", function (e) {
+  e.preventDefault();
+  const nombre = document.getElementById("nombre").value;
+  const fecha = document.getElementById("fecha").value;
+  const personas = document.getElementById("personas").value;
+  const mensaje = `Gracias ${nombre}, tu reservación para ${personas} persona(s) el ${fecha} ha sido registrada.`;
+  document.getElementById("mensaje").textContent = mensaje;
+  this.reset();
+});
